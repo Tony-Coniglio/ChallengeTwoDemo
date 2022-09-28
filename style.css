@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    margin: 2%;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}    
+
+nav {
+    
+    font-size: larger;
+    display: flex;
+    width: 25%;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+
+.about-work {
+
+    display: flex;
+    margin: 2%
+}
+
+h2 {
+ min-width: 25%;
+ max-width: 25%;
+
+ text-align: center;
+ 
+
+}
+
+p {
+
+   margin: 2%; 
+   max-width: 66%;
+   min-width: 66%;
+   border-left: 10px solid black;
+   padding: 2%;
+   display: flex;
+   
+
+}
+
+.contact-me {
+
+    display: flex;
+}
+
+.large-project {
+
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 40%;
+    min-height: 40%;
+    color: blue;
+    border: 2px solid black;
+    margin:2%;
+    background-color: green;
+    
+}
+
+.small-project {
+
+    max-width: 50%;
+    min-width: 40%;
+    border: 2px solid black;
+    margin:1%;
+    background-color: darkgreen;
+}
+
+.work-list {
+    display: flex;
+    align-items: center;
+    border-color: black;
+    justify-content: space-evenly;
+    border-left: 10px solid black;
+    margin: 2%;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.contact {
+
+    border-left: 10px solid black;
+    margin: 2%;
+    justify-content: space-evenly;
+}
+
+img {
+    max-width: 15%;
+    height: auto;
+}
